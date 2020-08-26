@@ -27,7 +27,7 @@ e,e,e,e,e,e,e,e
 ])
 
 # colorful squares
-for x in range(50):
+while True:
     shapes.square(image, [0,0], [7,0], [7,7],[0,7],[randint(0,255),randint(0,255),randint(0,255)],.01)
     shapes.square(image, [1,1], [6,1], [6,6],[1,6],[randint(0,255),randint(0,255),randint(0,255)],.01)
     shapes.square(image, [2,2], [5,2], [5,5],[2,5],[randint(0,255),randint(0,255),randint(0,255)],.01)

@@ -97,6 +97,7 @@ try:
 
         # measure temperature
         temp = round(sh.get_temperature(), 1)
+	temp = temp - 12
 
         # verbose
         if verbose:
